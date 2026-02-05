@@ -1,0 +1,15 @@
+/* Keep dropdown closed by default */
+
+.navbar .dropdown-menu {
+  display: none;
+}
+
+/* Open only on hover */
+
+@media (min-width: 992px) {
+  .navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
