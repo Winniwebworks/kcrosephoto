@@ -13,18 +13,6 @@
         toggle: false
       });
       
-<<<<<<< HEAD
-      var navbarItems = navbarCollapse.querySelectorAll('a');
-=======
-      var navbarItems = navbarCollapse.querySelectorAll('.nav-link:not(.dropdown-toggle), .dropdown-item');
->>>>>>> 2b41ebb (replace files and update navbar)
-      
-      // Closes responsive menu when a scroll trigger link is clicked
-      for (var item of navbarItems) {
-        item.addEventListener('click', function (event) {
-          collapse.hide();
-        });
-      }
     }
 
     // Collapse Navbar
